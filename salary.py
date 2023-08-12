@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import altair as alt
-import plotly.graph_objs as go
+from plotly import graph_objs as go
 from sklearn.linear_model import LinearRegression
 import numpy as np
 import io
